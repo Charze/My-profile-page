@@ -1,0 +1,500 @@
+body {
+  margin: 0;
+  padding: 0rem;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-image: url("images/black6.jpg");
+  background-size: 172%;
+  background-position: left 50px;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.navbar {
+  /* border-top: 10px solid #748920; */
+  border-bottom: 0.7rem solid #5b8920;
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #01430e;
+  box-shadow: 0px 4px 10px 2px #000000;
+}
+
+#list {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  font-size: 1.5rem;
+  align-items: center;
+  margin-right: 16.5em;
+  letter-spacing: 0.5rem;
+  list-style: none;
+  color: #e1d7d2;
+}
+
+.main-hr {
+  margin-left: 1.8rem;
+}
+.logo {
+  width: 5.1em;
+  height: 5.1em;
+  margin-left: 1.2em;
+  margin-top: 0.4em;
+  border-radius: 50%;
+}
+
+.name {
+  margin-top: 5.5rem;
+  color: #01430e;
+  font-size: 3.1rem;
+  font-weight: bold;
+}
+
+.skills {
+  margin-top: 9rem;
+  text-align: center;
+  color: #c5360f;
+  font-size: 2.8rem;
+  font-weight: bolder;
+}
+
+.career {
+  color: #c5360f;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.8em;
+}
+.big {
+  border-radius: 100%;
+  width: 12%;
+  transition: transform 0.9s;
+  box-shadow: 0 0 30px 0px #000000;
+}
+
+.big:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.intro {
+  margin-left: 26.5em;
+  background-image: url("images/blue5.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40%;
+  height: 150%;
+  border-radius: 100%;
+  box-shadow: 2px 2px 30px 2px #01430e;
+  transition: transform 1.2s;
+  border-left: 1.4em solid #f7f700;
+  border-radius: 50%;
+}
+
+.emo-quality {
+  padding: 3.5em;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #c5360f;
+  letter-spacing: 0.1em;
+  line-height: 1.2em;
+  transition: transform 0.2s;
+}
+
+.emo-quality:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.main {
+  width: 100%;
+  /* position: sticky;
+    top: 0; */
+}
+
+.languages {
+  display: inline-block;
+  margin-left: 12.5em;
+  border-left: 1.5em solid #f7f700;
+  border-radius: 50%;
+}
+
+hr {
+  width: 60%;
+  height: 0.2em;
+  background-color: #c5360f;
+  border-radius: 80%;
+  margin-bottom: 5rem;
+}
+.h2 {
+  font-size: 2.1rem;
+  font-weight: bold;
+  letter-spacing: 0.5rem;
+  margin: 6rem 8rem 6rem 25rem;
+  color: #c5360f;
+}
+
+h1 {
+  margin: 2.5rem auto;
+  color: #01430e;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.profile {
+  margin-left: 10%;
+}
+
+.html {
+  margin-left: 20%;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.css {
+  margin: 2rem auto 0.9rem 4.8rem;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bootstrap {
+  margin: -45px auto 2.2rem 3.5rem;
+  width: 60%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.js {
+  margin: 1rem 1rem 0.1rem 3.8rem;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.html-logo {
+  height: 21%;
+  width: 22%;
+}
+
+.css-logo {
+  height: 17%;
+  width: 17%;
+}
+
+.bt-logo {
+  height: 24%;
+  width: 24%;
+}
+
+.js-logo {
+  height: 21%;
+  width: 22%;
+}
+/* .btn {
+    width: 5.5rem;
+    height: 1.5rem;
+    color: #000000;
+    background-color: #C5360F;
+
+} */
+
+.copyright {
+  font-size: 0.9em;
+  margin: 2.4rem auto 0 0.5rem;
+  padding-top: 1.5rem;
+  display: flex;
+  color: #fff;
+}
+
+.html-hr {
+  margin: 2rem auto auto 6.8rem;
+}
+
+.css-hr {
+  margin-left: 3.1rem;
+}
+
+.bt-hr {
+  margin: 1.5rem 1.5rem 1.5rem 1.8rem;
+}
+
+.js-hr {
+  margin: 1.5rem 1.5rem 1.5rem -1rem;
+}
+
+.intro:hover {
+  transform: scale(1.05);
+}
+
+.mediaa {
+  display: flex;
+  background-color: #01430e;
+  margin-top: 5.5em;
+  padding: 0.5em;
+  width: auto;
+  border-top: 0.7rem solid #5b8920;
+  /* height: auto; */
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  height: 5.5rem;
+  /* background-color: aqua; */
+  width: 95%;
+}
+
+.socila-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.twitter,
+.linked {
+  color: #fff;
+  display: inline-block;
+  margin-left: 1.5rem;
+  font-size: x-large;
+}
+
+.fa-twitter,
+.fa-linkedin {
+  color: #fff;
+  padding-left: 0.3rem;
+  text-decoration: none;
+}
+
+/* .fa-twitter, */
+.fa-linkedin:hover {
+  color: #fff;
+  text-decoration: none;
+  color: #00acee;
+  /* scale: 0.5rem; */
+}
+
+h6:hover {
+  border-radius: 50%;
+  width: 2rem;
+  background-color: #e1d7d2;
+  color: #00acee;
+}
+
+.fa-twitter:hover {
+  color: #fff;
+  text-decoration: none;
+  color: #00acee;
+  /* transition: 1.5rem; */
+}
+
+.twitter,
+.linked:hover {
+  cursor: pointer;
+}
+
+.tutorials {
+  padding-top: 0.8rem;
+  margin: 5rem 0 0 14rem;
+  color: #c5360f;
+  font-size: 1.5rem;
+  height: 1rem;
+  /* background-color: aquamarine; */
+}
+
+.table-container {
+  margin: 1rem auto auto 2rem;
+  width: 100%;
+  display: block;
+  text-align: start;
+  height: 7rem;
+}
+
+.certifications {
+  background-color: #f0eeed;
+  width: 55%;
+  height: 28%;
+  margin-left: 10rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0rem;
+}
+
+ul {
+  line-height: 1.5rem;
+}
+
+ul,
+li {
+  list-style: none;
+  list-style-type: none;
+}
+
+.tutor {
+  color: #01430e;
+  /* padding: 0 0 auto 5rem; */
+  margin-left: 16rem;
+  margin-top: 0.5rem;
+  display: inline-block;
+  font-weight: bold;
+  /* background-color: #5b8920; */
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #01430e;
+  }
+
+  #list {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    display: flex;
+    font-size: 1.2rem;
+    /* align-items: center; */
+    margin-left: 2.7em;
+    letter-spacing: 0.8rem;
+    list-style: none;
+    color: #efe5e1;
+  }
+
+  .h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    margin: 5rem 6rem 4rem 8rem;
+    color: #c5360f;
+  }
+
+  .main-hr {
+    width: 16.5rem;
+    margin: 0.5rem auto 0.5rem -3rem;
+  }
+
+  .html-hr {
+    margin: 1rem auto auto 6.8rem;
+  }
+
+  .css-hr {
+    margin-left: 3.1rem;
+  }
+
+  .bt-hr {
+    margin: 0.5rem 1.5rem 0.5rem 1.8rem;
+  }
+
+  .js-hr {
+    margin: 0.5rem 0.5rem 0.5rem 6rem;
+  }
+
+  .emo-quality {
+    padding: 1.5em;
+    width: 6rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #c93f19;
+    letter-spacing: 0.05em;
+    line-height: 1em;
+    transition: transform 0.2s;
+  }
+
+  .languages {
+    display: inline-block;
+    margin-left: 1.5em;
+    border-left: 1.5em solid #f7f700;
+    border-radius: 50%;
+  }
+
+  .certifications {
+    background-color: #f0eeed;
+    width: 97%;
+    height: 50%;
+    margin-left: 0.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .tutorials {
+    padding-top: 0.4rem;
+    margin: 4rem 0 0 6rem;
+    color: #c5360f;
+    font-size: 1.4rem;
+    height: 0.6rem;
+  }
+
+  .table-container {
+    margin: 1rem auto auto -2rem;
+    width: 100%;
+    /* background-color: #ebc3af; */
+    display: block;
+    text-align: start;
+    height: 9rem;
+  }
+
+  .tutor {
+    color: #01430e;
+    padding: 0.5rem 10rem 0 7em;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    font-weight: bold;
+  }
+
+  .intro {
+    margin-left: 8em;
+    width: 40%;
+    box-shadow: 2px 2px 30px 2px #01430e;
+    transition: transform 1.2s;
+    border-left: 1.2em solid #f7f700;
+    /* border-radius: 50%; */
+  }
+  .emo-quality {
+    margin-left: 0.9rem;
+  }
+
+  .name {
+    margin: 4.5rem auto auto 5rem;
+    color: #01430e;
+    font-size: 2.1rem;
+    font-weight: bold;
+  }
+
+  .career {
+    color: #c5360f;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1.6rem auto 2.5rem 6.6em;
+  }
+  .big {
+    border-radius: 100%;
+    width: 22%;
+    transition: transform 0.9s;
+    box-shadow: 0 0 30px 0px #000000;
+    margin: 1.6rem auto 2.5rem 0;
+  }
+
+  .twitter,
+  .linked {
+    color: #fff;
+    display: inline-block;
+    margin-left: 1.5rem;
+    margin-top: 4.5rem;
+    font-size: large;
+  }
+
+  .fa-twitter,
+  .fa-linkedin {
+    color: #fff;
+    padding-left: 0.45rem;
+    text-decoration: none;
+  }
+}
+
+/* 
+@media only screen and (max-width: 479px) and (min-width: 0px) {
+  .navbar {
+      background-color: #f7f700;
+  }
+} */
+
+/* @media only screen and (max-width: 100px) {
+  .navbar{
+    background-color: #00acee;
+  }
+} */
